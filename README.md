@@ -1,15 +1,18 @@
-# aritzia-task-management
+# task-manager-spec-first
 
-> Status: **specification complete, build not started.** The stack is
-> chosen and recorded in six ADRs; the build plan is in `docs/TASKS.md`
-> and has been critic-reviewed (`docs/BLOCKERS.md`). Repository
-> guardrails are in place.
+> Status: **built and deployed.** 78 of 79 acceptance criteria are met
+> (72 by a named automated test, 6 by recorded manual verification). The
+> remaining one, `AC-DEP-1`, is a walk-through on a real phone that no
+> agent session could do (`docs/BLOCKERS.md`, B-24).
 
-A Next.js / TypeScript task-management application built spec-first by
-AI agents, with the process instrumented so its cost and quality can be
-read afterwards. It is a technical case assessment; `docs/PROJECT.md`
-explains what is being assessed and why the surrounding process is the
-point.
+A Next.js / TypeScript task manager built spec-first by AI agents in a
+two-day senior-developer take-home, with the process instrumented so its
+cost and quality can be read afterwards. The app is a to-do list on
+purpose: what it demonstrates is everything around it. Requirements are
+traced line by line into testable criteria, every stack choice has an
+ADR with a build-vs-buy section, the API key is proven absent from the
+client bundle by a test, and every agent session's token cost is in a
+ledger.
 
 | Read | For |
 |---|---|
